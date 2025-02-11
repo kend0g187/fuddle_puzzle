@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const WordleGrid = () => {
   const rows = 6;
   const columns = 5;
-  const emptyGrid = Array.from({ length: rows }, ()n    Array(columns).fill("")
+  const emptyGrid = Array.from({ length: rows }, ()=>    Array(columns).fill("")
   );
 
   const [grid, setGrid] = useState(emptyGrid);
