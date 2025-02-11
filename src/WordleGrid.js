@@ -42,7 +42,7 @@ const WordleGrid = () => {
           {row.map((letter, colIndex) => (
             <div
               key={colIndex}
-              className="w-16 h-16 border-2 border-gray-300 flex items-center justify-center text-2xl font-bold"
+              className="w-16 h-16 background-blue border-2 border-gray-300 flex items-center justify-center text-2xl font-bold"
             >
               {rowIndex === currentRow && colIndex < currentGuess.length
                 ? currentGuess[colIndex]
