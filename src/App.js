@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function App = () => {
+const WordleGrid = () => {
   const rows = 6;
   const columns = 5;
   const emptyGrid = Array.from({ length: rows }, ()n    Array(columns).fill("")
@@ -55,7 +55,8 @@ function App = () => {
   );
 };
 
-export default App;
+export default WordleGrid;
+
 
 /* function App() {
   return (
