@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const App = () => {
+function App = () => {
   const rows = 6;
   const columns = 5;
   const emptyGrid = Array.from({ length: rows }, ()n    Array(columns).fill("")
